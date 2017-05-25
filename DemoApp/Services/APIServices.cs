@@ -13,7 +13,7 @@ namespace DemoApp
 	public static class APIServices
 	{
 		static string baseUrl = "https://maps.googleapis.com/maps/api/";
-		static string placesApiKey = "AIzaSyC9klL_XkoCiJJqgk3qU9i4pZ0jl4b9GC8";
+		static string placesApiKey = "AIzaSyDZnbsL9elt05ENMmq2mxXDZmAxtaQGGmc";
 
 		static HttpClient createClient() {
 			HttpClient httpClient = new HttpClient()
