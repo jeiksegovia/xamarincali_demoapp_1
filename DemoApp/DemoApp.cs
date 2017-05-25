@@ -9,22 +9,8 @@ namespace DemoApp
 		public App()
 		{
 			// The root page of your application
-			var content = new ContentPage
-			{
-				Title = "DemoApp",
-				Content = new StackLayout
-				{
-					VerticalOptions = LayoutOptions.Center,
-					Children = {
-						new Label {
-							HorizontalTextAlignment = TextAlignment.Center,
-							Text = "Welcome to Xamarin Forms!"
-						}
-					}
-				}
-			};
 
-			MainPage = new NavigationPage(content);
+			MainPage = new NavigationPage(new MyPage());
 		}
 
 		protected override void OnStart()

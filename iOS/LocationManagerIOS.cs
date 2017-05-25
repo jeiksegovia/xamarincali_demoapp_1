@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 [assembly: Dependency (typeof (LocationManagerIOS))]
 namespace Flyerz.iOS
 {
-	public class LocationManagerIOS:ILocationManager
+	public class LocationManagerIOS//:ILocationManager
 	{
 		CLLocationManager iPhoneLocationManager=null;
 		double Latitude;

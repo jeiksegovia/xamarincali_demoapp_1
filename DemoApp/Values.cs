@@ -1,10 +1,8 @@
 ﻿using System;
 namespace DemoApp
 {
-	public class Values
+	public static class Values
 	{
-		public Values()
-		{
-		}
+		public static string textColor = "#585957";
 	}
 }

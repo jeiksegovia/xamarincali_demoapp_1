@@ -2,7 +2,7 @@
 
 namespace DemoApp
 {
-	public class PlaceDTO
+	public class Place
 	{
 		public string address{ get; set;}
 		public double latitude{ get; set;}
